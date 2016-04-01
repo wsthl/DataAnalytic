@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension id="poller"
+         point="org.eclipse.core.runtime.applications">
+       <application>
+      		<run class="com.ibm.cstl.sport.aa.client.rcp.PollApplication"/>
+   	   </application>
+   </extension>
+   
+   <extension
+         id="poller"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.ibm.cstl.sport.aa.client.poller"
+            name="APAR Analysis Poller">
+         <property
+               name="appName"
+               value="APAR Analysis Poller">
+         </property>
+      </product>
+   </extension>
+</plugin>

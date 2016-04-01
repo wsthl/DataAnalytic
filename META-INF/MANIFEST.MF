@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: APAR Analysis Tool Client
+Bundle-SymbolicName: com.ibm.cstl.sport.aa.client;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: IBM
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.core.runtime,
+ com.ibm.team.repository.client,
+ com.ibm.team.repository.common,
+ com.ibm.team.workitem.client,
+ com.ibm.team.workitem.common,
+ com.ibm.team.process.client,
+ com.ibm.team.process.common,
+ com.ibm.team.apt.common,
+ com.ibm.team.apt.client,
+ com.ibm.cstl.sport.aa.common
+Export-Package: com.ibm.cstl.sport.aa.client.rtc
